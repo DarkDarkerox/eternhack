@@ -7,7 +7,7 @@ def send_email(link):
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('ma.sanchez.lr@gmail.com', 'forsfomtdedxndxa')
+    server.login('ma.sanchez.lr@gmail.com', '---')
     subject = "El libro ya salio!"
     body = "El link es: tushoppi.com.mx{}".format(link)
     msg = "Subject: {} \n\n {}".format(subject, body)
